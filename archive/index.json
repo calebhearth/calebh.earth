@@ -1,0 +1,247 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Caleb Hearth",
+	"icon": "https://micro.blog/calebhearth/avatar.jpg",
+	"home_page_url": "https://calebh.earth/",
+	"feed_url": "https://calebh.earth/photos/index.json",
+	"items": [
+			{
+				"id": "https://calebh.earth/2024/11/22/tell-github-to.html",
+				"title": "Tell GitHub to Render Markdown Pages with .gitattributes",
+				"content_text": "Articles on Hearthside are written in Markdown (GitHub-flavored), but the file extension is .md.yaml …",
+				"date_published": "2024-11-22T19:34:15-07:00",
+				"url": "https://calebh.earth/2024/11/22/tell-github-to.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/21/oxtail-and-more.html",
+				"title": "Oxtail, and more Cooklang Exploration",
+				"content_text": "After yesterday’s post, it was time to finally try to handle a blog post and Cooklang recipe in one …",
+				"date_published": "2024-11-21T19:17:30-07:00",
+				"url": "https://calebh.earth/2024/11/21/oxtail-and-more.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/20/oat-notes.html",
+				"title": "Oat Notes",
+				"content_text": "You’ll probably read this recipe and think wait, this is just overnight oats but you’d be wrong, …",
+				"date_published": "2024-11-20T21:43:33-07:00",
+				"url": "https://calebh.earth/2024/11/20/oat-notes.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/19/how-i-model.html",
+				"title": "How I Model SwiftUI Views",
+				"content_text": "The approach I take to defining ViewModels for SwiftUI was heavily inspired by Paul Hudson’s post …",
+				"date_published": "2024-11-19T12:42:26-07:00",
+				"url": "https://calebh.earth/2024/11/19/how-i-model.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/18/truncate-date-to.html",
+				"title": "Truncate Date to Calendar.Component in Swift",
+				"content_text": "I’m frequently wanting to work with truncated dates in Swift apps, especially when dealing with …",
+				"date_published": "2024-11-18T16:48:08-07:00",
+				"url": "https://calebh.earth/2024/11/18/truncate-date-to.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/15/using-starship-for.html",
+				"title": "Using Starship for the Same Prompt, but Faster",
+				"content_text": "Starship is a highly-configurable, cross-shell prompt. I recently switched to using it and it sped …",
+				"date_published": "2024-11-15T13:44:23-07:00",
+				"url": "https://calebh.earth/2024/11/15/using-starship-for.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/14/send-a-from.html",
+				"title": "Send a From Header When You Crawl",
+				"content_text": "Sending a From header is part of building a polite crawler, along with respecting Robots.txt and …",
+				"date_published": "2024-11-14T09:25:12-07:00",
+				"url": "https://calebh.earth/2024/11/14/send-a-from.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/13/use-curl-and.html",
+				"title": "Use cURL and jq to Send Webmentions from Hacker News",
+				"content_text": "Hacker News doesn’t send Webmentions when a post is created like Lobste.rs will, and there’s not …",
+				"date_published": "2024-11-13T11:37:04-07:00",
+				"url": "https://calebh.earth/2024/11/13/use-curl-and.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/12/search-and-sync.html",
+				"title": "Search and Sync Your Shell History With Atuin",
+				"content_text": "Atuin is a tool that runs in the background to capture commands you’ve entered. It stores these …",
+				"date_published": "2024-11-12T15:44:21-07:00",
+				"url": "https://calebh.earth/2024/11/12/search-and-sync.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/11/decryptioncyphererror-on-rails.html",
+				"title": "Decryption/CypherError on Rails 7.1 Apps with Encrypted Columns After Upgrading from Previous Versions",
+				"content_text": "When upgrading to Rails 7.1 with any models using the encrypts macro from ActiveRecord::Encryption, …",
+				"date_published": "2024-11-11T08:34:29-07:00",
+				"url": "https://calebh.earth/2024/11/11/decryptioncyphererror-on-rails.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/08/i-use-uses.html",
+				"title": "I Use /uses",
+				"content_text": "Back in 2023 I quietly published my /uses slashpage. Today I gave it a pass to update things that …",
+				"date_published": "2024-11-08T11:24:30-07:00",
+				"url": "https://calebh.earth/2024/11/08/i-use-uses.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/07/how-to-send.html",
+				"title": "How to Send a Webmention h-entry",
+				"content_text": "Notify sites that you have linked to them with extra context: is your content a reply, a review, a …",
+				"date_published": "2024-11-07T13:07:11-07:00",
+				"url": "https://calebh.earth/2024/11/07/how-to-send.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/06/new-fonts-day.html",
+				"title": "New Fonts Day",
+				"content_text": "Today rather than publishing a lengthier post, I’ll point you to some work I’ve done on this site’s …",
+				"date_published": "2024-11-06T08:18:29-07:00",
+				"url": "https://calebh.earth/2024/11/06/new-fonts-day.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/05/ask-git-to.html",
+				"title": "Ask Git to Show a Method",
+				"content_text": "Easily view the source of a function or method in your terminal using Git and this shell script. …",
+				"date_published": "2024-11-05T07:51:06-07:00",
+				"url": "https://calebh.earth/2024/11/05/ask-git-to.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/04/build-colors-from.html",
+				"title": "Build Colors from Colors with CSS Relative Color Syntax",
+				"content_text": "This is a post I’m mostly writing for my future self, because I can never remember the actual term …",
+				"date_published": "2024-11-04T10:41:16-07:00",
+				"url": "https://calebh.earth/2024/11/04/build-colors-from.html"
+			},
+			{
+				"id": "https://calebh.earth/2024/11/03/highlighting-text-in.html",
+				"title": "Highlighting Text in Links with Text Fragments",
+				"content_text": "I’ve used URL text fragments in a few posts now and often use it outside of this blog to point …",
+				"date_published": "2024-11-03T07:50:30-07:00",
+				"url": "https://calebh.earth/2024/11/03/highlighting-text-in.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/11/11/caf-mezcal.html",
+				"title": "Café Mezcal",
+				"content_text": "The Café Mezcal is a twist of the classic espresso martini that leans into the delightful way that …",
+				"date_published": "2023-11-11T17:00:00-07:00",
+				"url": "https://calebh.earth/2023/11/11/caf-mezcal.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/11/10/consecutive-days-of.html",
+				"title": "100 Consecutive Days of Reading",
+				"content_text": "I’ve been using Streaks to track my goal of reading each day since late April of this year. I don’t …",
+				"date_published": "2023-11-10T17:00:00-07:00",
+				"url": "https://calebh.earth/2023/11/10/consecutive-days-of.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/11/09/how-to-stash.html",
+				"title": "How to Stash Everything git commit Wouldn\u0026#39;t Commit",
+				"content_text": "If you enjoy this article on Git, also check these other Git tips:\nIgnore refactoring commits in git …",
+				"date_published": "2023-11-09T17:00:00-07:00",
+				"url": "https://calebh.earth/2023/11/09/how-to-stash.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/11/08/nablopomo.html",
+				"title": "NaBloPoMo",
+				"content_text": "While I wrote and tried to publish this post on November 9th, an unrelated change I'd made caused it …",
+				"date_published": "2023-11-08T17:00:00-07:00",
+				"url": "https://calebh.earth/2023/11/08/nablopomo.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/11/07/collecting-records-to.html",
+				"title": "Collecting Records to Avoid Buying a Record Player",
+				"content_text": "If you don’t know me well, it may not be obvious that collecting records is the perfect hobby for …",
+				"date_published": "2023-11-07T17:00:00-07:00",
+				"url": "https://calebh.earth/2023/11/07/collecting-records-to.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/11/06/apps-i-use.html",
+				"title": "Apps I Use in 2023",
+				"content_text": "Inspired by Matt Birchler’s “My default apps at the end of 2023” via Adam Fortuna’s “What Apps I Use …",
+				"date_published": "2023-11-06T17:00:00-07:00",
+				"url": "https://calebh.earth/2023/11/06/apps-i-use.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/11/05/blogging-with-notion.html",
+				"title": "Blogging with Notion",
+				"content_text": "Notion has been helpful to me in organizing and offloading my thoughts on what articles I’d like to …",
+				"date_published": "2023-11-05T17:00:00-07:00",
+				"url": "https://calebh.earth/2023/11/05/blogging-with-notion.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/11/04/i-wish-there.html",
+				"title": "I wish there were a better story around replying to blogs",
+				"content_text": "Unlike social media microblogging, there’s not a great story for continuing the conversation of a …",
+				"date_published": "2023-11-04T17:00:00-07:00",
+				"url": "https://calebh.earth/2023/11/04/i-wish-there.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/11/03/annotating-ttrpg-modules.html",
+				"title": "Annotating TTRPG Modules",
+				"content_text": "I want to share an approach to highlighting and tabbing an adventure that I’ve used recently to prep …",
+				"date_published": "2023-11-03T17:00:00-07:00",
+				"url": "https://calebh.earth/2023/11/03/annotating-ttrpg-modules.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/11/02/see-the-history.html",
+				"title": "See the History of a Method with git log -L",
+				"content_text": "If you enjoy this article on Git, also check these other Git tips:\nStash only what git commit …",
+				"date_published": "2023-11-02T17:00:00-07:00",
+				"url": "https://calebh.earth/2023/11/02/see-the-history.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/11/01/undo-in-assetsclobber.html",
+				"title": "Undo in assets:clobber What You Do in assets:precompile",
+				"content_text": "As a best practice, when you enhance your Rails app’s assets:precompile task to build static assets …",
+				"date_published": "2023-11-01T17:00:00-07:00",
+				"url": "https://calebh.earth/2023/11/01/undo-in-assetsclobber.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/10/31/quotjewishishquot-brisket-recipe.html",
+				"title": "\u0026quot;Jewish-ish\u0026quot; Brisket Recipe",
+				"content_text": "There’s no better way to prepare a brisket than to smoke it low and slow, like they do in the South. …",
+				"date_published": "2023-10-31T17:00:00-07:00",
+				"url": "https://calebh.earth/2023/10/31/quotjewishishquot-brisket-recipe.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/08/27/linked-bartenders-are.html",
+				"title": "Linked: Bartenders Are Rethinking Cocktail Garnishes and Helping Fight Food Waste",
+				"content_text": "While I understand the visual appeal of a cocktail garnish, from a simple slice of citrus to a more …",
+				"date_published": "2023-08-27T12:16:54-07:00",
+				"url": "https://calebh.earth/2023/08/27/linked-bartenders-are.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/08/25/linked-block-the.html",
+				"title": "Linked: Block the Bots that Feed “AI” Models by Scraping Your Website",
+				"content_text": "An excellent overview of steps we can take to prevent scraping of content by unscrupulous bots, …",
+				"date_published": "2023-08-25T13:52:43-07:00",
+				"url": "https://calebh.earth/2023/08/25/linked-block-the.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/08/25/linked-tailwind-and.html",
+				"title": "Linked: Tailwind and the Femininity of CSS",
+				"content_text": "One of the best articulated arguments against using Tailwind and other CSS-avoidances (for using …",
+				"date_published": "2023-08-25T13:35:16-07:00",
+				"url": "https://calebh.earth/2023/08/25/linked-tailwind-and.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/08/25/linked-pregnancy-apps.html",
+				"title": "Linked: Pregnancy Apps Can Do Better for Parents After Loss",
+				"content_text": "Hannah argues that pregancy apps can better support several categories of user:\n People who have …",
+				"date_published": "2023-08-25T13:24:04-07:00",
+				"url": "https://calebh.earth/2023/08/25/linked-pregnancy-apps.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/06/23/itd-be-really.html",
+				"title": "",
+				"content_text": "It\u0026rsquo;d be really neat if someone made \u0026ldquo;smart\u0026rdquo; AAs/AAAs that could be used for …",
+				"date_published": "2023-06-23T09:02:40-07:00",
+				"url": "https://calebh.earth/2023/06/23/itd-be-really.html"
+			},
+			{
+				"id": "https://calebh.earth/2023/05/16/why-is-spam.html",
+				"title": "",
+				"content_text": "📝 Why is Spam on Mastodon Such a Heated Topic? in which I write about why mastodon.social\u0026rsquo;s …",
+				"date_published": "2023-05-16T09:38:57-07:00",
+				"url": "https://calebh.earth/2023/05/16/why-is-spam.html"
+			}
+	]
+}

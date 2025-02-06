@@ -1,0 +1,286 @@
+<rss version="2.0">
+  <channel>
+    <title>Caleb Hearth</title>
+    <link>https://calebh.earth/</link>
+    <description></description>
+    
+    <language>en</language>
+    
+    <lastBuildDate>Fri, 22 Nov 2024 19:34:15 -0700</lastBuildDate>
+    <item>
+      <title>Tell GitHub to Render Markdown Pages with .gitattributes</title>
+      <link>https://calebh.earth/2024/11/22/tell-github-to.html</link>
+      <pubDate>Fri, 22 Nov 2024 19:34:15 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/22/tell-github-to.html</guid>
+      <description>&lt;p&gt;Articles on Hearthside are written in Markdown (GitHub-flavored), but the file extension is .md.yaml as they also make use of Jekyll-style front matter. My Frontmatter gem requires that files it handles end in .yaml or .yml, so this is necessary.&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/github-linguist&#34; title=&#34;Tell GitHub to Render Markdown Pages with .gitattributes&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Oxtail, and more Cooklang Exploration</title>
+      <link>https://calebh.earth/2024/11/21/oxtail-and-more.html</link>
+      <pubDate>Thu, 21 Nov 2024 19:17:30 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/21/oxtail-and-more.html</guid>
+      <description>&lt;p&gt;After yesterday’s post, it was time to finally try to handle a blog post and Cooklang recipe in one file. The solution to how to format things was simple: inline the recipe in a Markdown code fence and pre-process it.&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/oxtail&#34; title=&#34;Oxtail, and more Cooklang Exploration&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Oat Notes</title>
+      <link>https://calebh.earth/2024/11/20/oat-notes.html</link>
+      <pubDate>Wed, 20 Nov 2024 21:43:33 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/20/oat-notes.html</guid>
+      <description>&lt;p&gt;You’ll probably read this recipe and think wait, this is just overnight oats but you’d be wrong, because this is a recipe for overnight oats that someone who cares about you remembered to make for you last night. At least that’s how I interpret my 3-year-old’s mis-hearing or pronunciation of us&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/oat-notes&#34; title=&#34;Oat Notes&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How I Model SwiftUI Views</title>
+      <link>https://calebh.earth/2024/11/19/how-i-model.html</link>
+      <pubDate>Tue, 19 Nov 2024 12:42:26 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/19/how-i-model.html</guid>
+      <description>&lt;p&gt;The approach I take to defining ViewModels for SwiftUI was heavily inspired by Paul Hudson’s post Introducing MVVM into your SwiftUI project. In it, he advocates for defining class ViewModel inside an extension to the relevant view. By naming each view’s MVVM class ViewModel, it can always be&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/how-i-model-views&#34; title=&#34;How I Model SwiftUI Views&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Truncate Date to Calendar.Component in Swift</title>
+      <link>https://calebh.earth/2024/11/18/truncate-date-to.html</link>
+      <pubDate>Mon, 18 Nov 2024 16:48:08 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/18/truncate-date-to.html</guid>
+      <description>&lt;p&gt;I’m frequently wanting to work with truncated dates in Swift apps, especially when dealing with Swift Charts. Foundation provides Calendar.startOfDay(for:) to get the first moment of a day, and that’s been really useful. The extension below will do something similar for an arbitrary1 &amp;hellip;&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/swift-truncate-date&#34; title=&#34;Truncate Date to Calendar.Component in Swift&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Starship for the Same Prompt, but Faster</title>
+      <link>https://calebh.earth/2024/11/15/using-starship-for.html</link>
+      <pubDate>Fri, 15 Nov 2024 13:44:23 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/15/using-starship-for.html</guid>
+      <description>&lt;p&gt;Starship is a highly-configurable, cross-shell prompt. I recently switched to using it and it sped up my prompt rendering from being noticably slow and taking probably half a second to render to an imperceptible 0.03s rendering time. It actually does slightly more than my old prompt did as well&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/starship-prompt&#34; title=&#34;Using Starship for the Same Prompt, but Faster&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Send a From Header When You Crawl</title>
+      <link>https://calebh.earth/2024/11/14/send-a-from.html</link>
+      <pubDate>Thu, 14 Nov 2024 09:25:12 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/14/send-a-from.html</guid>
+      <description>&lt;p&gt;Sending a From header is part of building a polite crawler, along with respecting Robots.txt and sending a unique User-Agent. The From header simply contains an email address that can be used by the site’s owner to reach out if your bot is creating any issues for them.&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/send-a-from-header&#34; title=&#34;Send a From Header When You Crawl&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Use cURL and jq to Send Webmentions from Hacker News</title>
+      <link>https://calebh.earth/2024/11/13/use-curl-and.html</link>
+      <pubDate>Wed, 13 Nov 2024 11:37:04 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/13/use-curl-and.html</guid>
+      <description>&lt;p&gt;Hacker News doesn’t send Webmentions when a post is created like Lobste.rs will, and there’s not currently a service on sites like Brid.gy that will provide them for you. Even the Hacker News API doesn’t provide search or filtering by site. Luckily, there is a service provided by Algolia that &amp;hellip;&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/hn-webmentions-jq-curl&#34; title=&#34;Use cURL and jq to Send Webmentions from Hacker News&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Search and Sync Your Shell History With Atuin</title>
+      <link>https://calebh.earth/2024/11/12/search-and-sync.html</link>
+      <pubDate>Tue, 12 Nov 2024 15:44:21 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/12/search-and-sync.html</guid>
+      <description>&lt;p&gt;Atuin is a tool that runs in the background to capture commands you’ve entered. It stores these locally in a SQLite database and provides a great CLI tool to search through that history, provide stats of what commands you frequently run, and optionally syncs this history across devices.&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/search-sync-shell-atuin&#34; title=&#34;Search and Sync Your Shell History With Atuin&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Decryption/CypherError on Rails 7.1 Apps with Encrypted Columns After Upgrading from Previous Versions</title>
+      <link>https://calebh.earth/2024/11/11/decryptioncyphererror-on-rails.html</link>
+      <pubDate>Mon, 11 Nov 2024 08:34:29 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/11/decryptioncyphererror-on-rails.html</guid>
+      <description>&lt;p&gt;When upgrading to Rails 7.1 with any models using the encrypts macro from ActiveRecord::Encryption, be wary of upgrading the config.load_defaults in config/application.rb from 7.0 to 7.1. The 7.1 defaults for ActiveRecord::Encryption include a combination of settings that can lead to your app&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/rails-7-1-encryption-errors&#34; title=&#34;Decryption/CypherError on Rails 7.1 Apps with Encrypted Columns After Upgrading from Previous Versions&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I Use /uses</title>
+      <link>https://calebh.earth/2024/11/08/i-use-uses.html</link>
+      <pubDate>Fri, 08 Nov 2024 11:24:30 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/08/i-use-uses.html</guid>
+      <description>&lt;p&gt;Back in 2023 I quietly published my /uses slashpage. Today I gave it a pass to update things that had fallen out of date.&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/i-use-uses&#34; title=&#34;I Use /uses&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Send a Webmention h-entry</title>
+      <link>https://calebh.earth/2024/11/07/how-to-send.html</link>
+      <pubDate>Thu, 07 Nov 2024 13:07:11 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/07/how-to-send.html</guid>
+      <description>&lt;p&gt;Notify sites that you have linked to them with extra context: is your content a reply, a review, a bookmark, or even a checkin?&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/webmentions-h-entry&#34; title=&#34;How to Send a Webmention h-entry&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Fonts Day</title>
+      <link>https://calebh.earth/2024/11/06/new-fonts-day.html</link>
+      <pubDate>Wed, 06 Nov 2024 08:18:29 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/06/new-fonts-day.html</guid>
+      <description>&lt;p&gt;Today rather than publishing a lengthier post, I’ll point you to some work I’ve done on this site’s design.&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/new-fonts-day&#34; title=&#34;New Fonts Day&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ask Git to Show a Method</title>
+      <link>https://calebh.earth/2024/11/05/ask-git-to.html</link>
+      <pubDate>Tue, 05 Nov 2024 07:51:06 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/05/ask-git-to.html</guid>
+      <description>&lt;p&gt;Easily view the source of a function or method in your terminal using Git and this shell script.&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/git-show-func&#34; title=&#34;Ask Git to Show a Method&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Build Colors from Colors with CSS Relative Color Syntax</title>
+      <link>https://calebh.earth/2024/11/04/build-colors-from.html</link>
+      <pubDate>Mon, 04 Nov 2024 10:41:16 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/04/build-colors-from.html</guid>
+      <description>&lt;p&gt;This is a post I’m mostly writing for my future self, because I can never remember the actual term for the CSS feature that lets you define a color based on another color (it’s “CSS Relative Color”) and “color mix” which is what I keep wanting the feature to be called never turns up any results&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/css-relative-colors&#34; title=&#34;Build Colors from Colors with CSS Relative Color Syntax&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Highlighting Text in Links with Text Fragments</title>
+      <link>https://calebh.earth/2024/11/03/highlighting-text-in.html</link>
+      <pubDate>Sun, 03 Nov 2024 07:50:30 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2024/11/03/highlighting-text-in.html</guid>
+      <description>&lt;p&gt;I’ve used URL text fragments in a few posts now and often use it outside of this blog to point someone to a particular piece of text on a page. They’re a really useful feature that allows you to create a URL that links not just to a page or an anchor on that page, but specifically to a bit of&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Read more &lt;a href=&#34;https://calebhearth.com/mb/text-fragments&#34; title=&#34;Highlighting Text in Links with Text Fragments&#34;&gt;on my main blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Café Mezcal</title>
+      <link>https://calebh.earth/2023/11/11/caf-mezcal.html</link>
+      <pubDate>Sat, 11 Nov 2023 17:00:00 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2023/11/11/caf-mezcal.html</guid>
+      <description>&lt;div class=&#34;h-recipe&#34;&gt; &lt;div class=&#34;p-summary&#34;&gt; &lt;p&gt;The &lt;span class=&#34;p-name&#34;&gt;Café Mezcal&lt;/span&gt; is a twist of the classic espresso martini that leans into the delightful way that coffee and mezcal&lt;a href=&#34;#fn1&#34; id=&#34;ref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; flavors combine. For folks who don&#39;t enjoy mezcal but don&#39;t mind tequila, you can switch the proportion of mezcal to tequila or use only tequila.&lt;/p&gt; &lt;p&gt;I also leave out brewed espresso, but I&#39;d definitely experiment with adding it back—maybe cut down on the coffee liqueur to make up the volume.&lt;/p&gt; &lt;/div&gt; &lt;h2&gt;Ingredients&lt;/h2&gt; &lt;ul&gt; &lt;li class=&#34;p-ingredient&#34;&gt;One part&lt;a href=&#34;#fn2&#34; id=&#34;ref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; simple syrup&lt;/li&gt; &lt;li class=&#34;p-ingredient&#34;&gt;Three parts coffee liqueur&lt;/li&gt; &lt;li class=&#34;p-ingredient&#34;&gt;One part reposado tequila&lt;/li&gt; &lt;li class=&#34;p-ingredient&#34;&gt;Two parts mezcal (I like &lt;a href=&#34;https://delmaguey.com/expressions/#VID&#34;&gt;Del Maguey Vida&lt;/a&gt;)&lt;/li&gt; &lt;/ul&gt; &lt;h2&gt;Instructions&lt;/h2&gt; &lt;div class=&#34;e-instructions&#34;&gt; &lt;p&gt;Combine in double Old-fashioned glass and stir with a large ice cube.&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;div role=&#34;doc-endnotes&#34;&gt; &lt;h2&gt;Footnotes&lt;/h2&gt; &lt;ol&gt; &lt;li id=&#34;fn1&#34; role=&#34;doc-endnote&#34;&gt; If you&#39;re unfamiliar with mezcal, here are a few resources I recommend, but really you should go out and order a nice glass of it at a good bar. Mezcal should be sipped like a scotch, and it levels up cocktails wonderfully. &lt;a href=&#34;#ref1&#34; role=&#34;doc-backlink&#34;&gt;&lt;/a&gt; &lt;ul&gt; &lt;li class=&#34;h-cite&#34;&gt; &lt;a class=&#34;u-url p-name&#34; href=&#34;https://www.youtube.com/watch?v=Lcqy9y2_ixY&#34;&gt; Everything you need to know about Mezcal&lt;/a&gt; by &lt;span class=&#34;p-publication&#34;&gt;How to Drink&lt;/span&gt; &lt;/li&gt; &lt;li class=&#34;h-cite&#34;&gt; &lt;span class=&#34;p-author&#34;&gt;Max Falkowitz&lt;/span&gt;&#39; &lt;a class=&#34;u-url p-name&#34; href=&#34;https://www.seriouseats.com/guide-to-mezcal&#34;&gt; A Guide to Mezcal: How It&#39;s Made and Which Bottles...&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;
+    &lt;p&gt;&lt;a href=&#34;http://calebhearth.com/a/cafe-mezcal&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>100 Consecutive Days of Reading</title>
+      <link>https://calebh.earth/2023/11/10/consecutive-days-of.html</link>
+      <pubDate>Fri, 10 Nov 2023 17:00:00 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2023/11/10/consecutive-days-of.html</guid>
+      <description>&lt;p&gt;I’ve been &lt;a href=&#34;https://calebh.earth/apps-i-use-2023#:~:text=Streaks&#34;&gt;using Streaks to track&lt;/a&gt; my goal of reading each day since late April of this year. I don’t have a specific amount I’m trying to read; it’s whatever feels like progress that day. Some days I’ll read a couple of pages but not count it, others I’ll listen for 15 minutes and decide that’s good enough. I just hit 100 consecutive days (well, it will be 104 today but I put off writing this post since I wanted to pull some numbers to celebrate).&lt;/p&gt; &lt;p&gt;I thought it would be cool to pull some stats from my &lt;a href=&#34;https://calebh.earth/reading&#34;&gt;Reading data&lt;/a&gt; from the past ~year to compare the periods before I started using Streaks, since starting Streaks, and the past ~100 days that I’ve held this streak.&lt;/p&gt; &lt;p&gt;For combined progress of audiobooks and other formats, I’m using count of pages read or minutes listened / 1.9, which is a value I got from &lt;a href=&#34;https://www.nadiaodunayo.com/&#34;&gt;Nadia Odunayo&lt;/a&gt;ofThe StoryGraphthat was a rough average ratio of minutes in most popular audiobook edition to pages in most popular non-audio edition over about 200 random works. It means...&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;http://calebhearth.com/a/100-days-of-reading&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Stash Everything git commit Wouldn&amp;#39;t Commit</title>
+      <link>https://calebh.earth/2023/11/09/how-to-stash.html</link>
+      <pubDate>Thu, 09 Nov 2023 17:00:00 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2023/11/09/how-to-stash.html</guid>
+      <description>&lt;aside class=&#34;announcement&#34;&gt;&lt;p&gt;If you enjoy this article on Git, also check these other &lt;a href=&#34;https://calebh.earth/tags/git&#34;&gt;Git tips&lt;/a&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://calebh.earth/rubocop-git-blame&#34;&gt;Ignore refactoring commits in &lt;code&gt;git blame&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://calebh.earth/git-method-history&#34;&gt;Trace the history of a method with &lt;code&gt;git log&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://calebh.earth/sign-git-with-ssh&#34;&gt;Use your SSH key to sign commits&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/aside&gt; &lt;p&gt;Sometimes I want to take some changes that I’ve made but haven’t yet committed yet and put the into the git stash, which I probably use a lot more than I should. When will you learn to just &lt;code&gt;git commit -mwip&lt;/code&gt;, Caleb?&lt;/p&gt; &lt;p&gt;Either way, Git has my back. &lt;code&gt;git stash --keep-index --include-untracked&lt;/code&gt; is almost the opposite of the above. It creates a stash commit for only files that wouldn’t otherwise be committed: unstaged changes and untracked files.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;code&gt;--keep-index&lt;/code&gt; leaves all changes already added to the index (i.e., staged) intact&lt;/li&gt; &lt;li&gt;&lt;code&gt;--include-untracked&lt;/code&gt; stashes files in the working tree that have not yet been tracked by Git, and then runs &lt;code&gt;git clean&lt;/code&gt; to remove untracked files&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;The above command is really useful in cases when you want to make a commit of a subset of your working tree. Say you’ve set up the perfect commit and...&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;http://calebhearth.com/a/stash-what-git-wouldnt-commit&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NaBloPoMo</title>
+      <link>https://calebh.earth/2023/11/08/nablopomo.html</link>
+      <pubDate>Wed, 08 Nov 2023 17:00:00 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2023/11/08/nablopomo.html</guid>
+      <description>&lt;aside class=&#34;announcement&#34;&gt; &lt;p&gt;While I wrote and tried to publish this post on November 9&lt;sup&gt;th&lt;/sup&gt;, an unrelated change I&#39;d made caused it not to be released until today, the 10&lt;sup&gt;th&lt;/sup&gt;. Sorry about that.&lt;/p&gt; &lt;/aside&gt; &lt;p&gt;Today is day nine of November, which besides other more popular “movements”” such as NaNoWriMo, National Novel Writing Month, is NaBloPoMo: National Blog Posting Month. I’ve been known to wax poetic about projects I’m working on and which might “soon” see the light of day, so I actually refrained for a bit before writing this post.&lt;/p&gt; &lt;p&gt;Yes, I’m participating in NaBloPoMo, which means that I’ve made it my goal to post 30 blog posts in the 30 days of November. Less stringent is the goal to post an article each day; I’m happy to make up for a missed day with a double if I need to but would like to avoid that.&lt;/p&gt; &lt;p&gt;NaBloPoMo was started in 2006 by Eden Kennedy, who in 2010 sold the concept to BlogHer which in turn seems to have stopped promoting it after 2016. That probably explains why this is the first year I’ve heard of it.&lt;/p&gt; &lt;p&gt;I’m...&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;http://calebhearth.com/a/nablopomo-2023&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collecting Records to Avoid Buying a Record Player</title>
+      <link>https://calebh.earth/2023/11/07/collecting-records-to.html</link>
+      <pubDate>Tue, 07 Nov 2023 17:00:00 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2023/11/07/collecting-records-to.html</guid>
+      <description>&lt;p&gt;If you don’t know me well, it may not be obvious that collecting records is the perfect hobby for me: it’s expensive, easy to get passionate about, few people care, and yes, it’s fairly pretentious. Record collecting even has dedicated and beloved shops for its adherents, often questionably lit and with entrances on side roads or alleys, a-la used book stores. It’s really got my name written all over it. So it might come as a surprise that I’ve never bothered until recently to be interested in it. You see, I’m not really that into music.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;But&lt;/strong&gt; as it turns out &lt;em&gt;collecting&lt;/em&gt; records doesn’t really require that you &lt;em&gt;listen&lt;/em&gt; to them. At least, that’s what I’m telling myself as I buy them recently and then proceed to listen to them on Apple Music while I wait for them to arrive.&lt;/p&gt; &lt;p&gt;I don’t even have a record player, but I’m up to five records on my shelf and in my &lt;a href=&#34;https://www.discogs.com/user/calebhearth/collection&#34; rel=&#34;me&#34;&gt;Discogs account&lt;/a&gt;:&lt;/p&gt; &lt;ol class=&#34;cite-li&#34;&gt; &lt;li class=&#34;album u-bookmark-of h-cite&#34; id=&#34;album_26567141&#34;&gt; &lt;a class=&#34;u-url u-uid&#34; href=&#34;https://www.discogs.com/release/26567141&#34;&gt; &lt;img alt=&#34;So Much (For) Stardust&#34; title=&#34;So Much (For) Stardust&#34; class=&#34;u-photo&#34; width=&#34;281&#34; src=&#34;https://i.discogs.com/ZppzuFgjdblt72V6orwSnzn7rmDVPZDbZbrnly-XBPM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NTY3/MTQxLTE2ODUzODA1/MTEtNjgzMS5qcGVn.jpeg&#34; /&gt; &lt;/a&gt; &lt;p class=&#34;p-name&#34;&gt;So Much (For) Stardust&lt;/p&gt; &lt;p class=&#34;h-card p-author&#34;&gt; &lt;span class=&#34;p-name&#34;&gt;Fall Out Boy&lt;/span&gt; &lt;/p&gt; &lt;/li&gt; &lt;li class=&#34;album u-bookmark-of h-cite&#34; id=&#34;album_28654792&#34;&gt; &lt;a class=&#34;u-url u-uid&#34; href=&#34;https://www.discogs.com/release/28654792&#34;&gt; &lt;img alt=&#34;Electric Mangrove&#34; title=&#34;Electric Mangrove&#34; class=&#34;u-photo&#34; width=&#34;281&#34; src=&#34;https://i.discogs.com/QtegN_TEIjjBs64okhLpH2s5ray5-F5_BDB6gc-fjYE/rs:fit/g:sm/q:90/h:603/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NjU0/NzkyLTE2OTc4Mzgz/ODgtNTU3OC5wbmc.jpeg&#34; /&gt; &lt;/a&gt; &lt;p class=&#34;p-name&#34;&gt;Electric Mangrove&lt;/p&gt; &lt;p class=&#34;h-card p-author&#34;&gt; &lt;span class=&#34;p-name&#34;&gt;The Dead Robotz&lt;/span&gt; &lt;/p&gt; &lt;/li&gt; &lt;li class=&#34;album u-bookmark-of h-cite&#34; id=&#34;album_26974238&#34;&gt; &lt;a class=&#34;u-url u-uid&#34; href=&#34;https://www.discogs.com/release/26974238&#34;&gt; &lt;img alt=&#34;Signs Of Life&#34; title=&#34;Signs Of Life&#34; class=&#34;u-photo&#34; width=&#34;281&#34; src=&#34;https://i.discogs.com/Nl4_cH-fdF64GtoQ1dWIo3QX8f411OPPtZXJCEus_P8/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2OTc0/MjM4LTE2ODMyMTg2/NjYtODE3MS5qcGVn.jpeg&#34; /&gt; &lt;/a&gt; &lt;p class=&#34;p-name&#34;&gt;Signs of Life&lt;/p&gt; &lt;p&gt; &lt;span class=&#34;h-card p-author p-name&#34;&gt;Neil Gaiman&lt;/span&gt;...&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;
+    &lt;p&gt;&lt;a href=&#34;http://calebhearth.com/a/collecting-records&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apps I Use in 2023</title>
+      <link>https://calebh.earth/2023/11/06/apps-i-use.html</link>
+      <pubDate>Mon, 06 Nov 2023 17:00:00 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2023/11/06/apps-i-use.html</guid>
+      <description>&lt;p&gt;Inspired by &lt;span class=&#34;h-cite&#34;&gt;&lt;span class=&#34;h-author&#34;&gt;Matt Birchler&lt;/span&gt;’s “&lt;a href=&#34;https://birchtree.me/blog/my-default-apps-at-the-end-of-2023/&#34; class=&#34;u-url&#34;&gt;My default apps at the end of 2023&lt;/a&gt;” via &lt;span class=&#34;h-cite&#34;&gt;&lt;span class=&#34;h-author&#34;&gt;Adam Fortuna&lt;/span&gt;’s “&lt;a href=&#34;https://birchtree.me/blog/my-default-apps-at-the-end-of-2023/&#34; class=&#34;u-url&#34;&gt;What Apps I Use In 2023&lt;/a&gt;” and because I did a good job writing &lt;a href=&#34;https://calebh.earth/series/nablopomo&#34;&gt;6 consecutive more or less “real” posts&lt;/a&gt;, here are my apps used in 2023. You may consider each of these recommendations.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt; Mail service: &lt;a href=&#34;https://ref.fm/u12158805&#34;&gt;Fastmail&lt;/a&gt; (referral link)&lt;/li&gt; &lt;li&gt; Mail client: Apple Mail (iOS/macOS)&lt;/li&gt; &lt;li&gt; Tasks: Reminders.app, &lt;a href=&#34;https://streaksapp.com&#34;&gt;Streaks&lt;/a&gt;&lt;/li&gt; &lt;li&gt; RSS service: Feedbin&lt;/li&gt; &lt;li&gt; RSS client: Reeder&lt;/li&gt; &lt;li&gt; Launcher: Spotlight&lt;/li&gt; &lt;li&gt; Cloud storage: iCloud, Backblaze&lt;/li&gt; &lt;li&gt; Photo library: Apple Photos&lt;/li&gt; &lt;li&gt; Photo editing: Apple Photos, but I’m &lt;a href=&#34;https://pub.calebhearth.com/@caleb/111270508791418007&#34;&gt;in the market&lt;/a&gt;&lt;/li&gt; &lt;li&gt; Web browser: Safari (iOS, macOS), Firefox (macOS) for GSuite stuff that doesn’t support all browsers&lt;/li&gt; &lt;li&gt; Calendar service: &lt;a href=&#34;https://ref.fm/u12158805&#34;&gt;Fastmail&lt;/a&gt; (referral link)&lt;/li&gt; &lt;li&gt; Calendar app: Fantastical (iOS/macOS)&lt;/li&gt; &lt;li&gt; Calendar syncing: &lt;a href=&#34;https://calmcalendar.com&#34;&gt;Calm Calendar&lt;/a&gt;&lt;/li&gt; &lt;li&gt; Reading: &lt;a href=&#34;https://overcast.fm/&#34;&gt;Overcast&lt;/a&gt; for audiobooks, physical books, and iBooks for eBooks (in that order)&lt;/li&gt; &lt;li&gt; Weather: &lt;a href=&#34;https://www.meetcarrot.com/weather&#34;&gt;Carrot Weather&lt;/a&gt;&lt;/li&gt; &lt;li&gt; Podcasts: &lt;a href=&#34;https://overcast.fm/&#34;&gt;Overcast&lt;/a&gt;&lt;/li&gt; &lt;li&gt; Music: Apple Music&lt;/li&gt; &lt;li&gt; Clipboard manager: None&lt;/li&gt; &lt;li&gt; Passwords: iCloud Keychain&lt;/li&gt; &lt;li&gt; Budgeting: hmm…&lt;/li&gt;...&lt;/ul&gt;
+    &lt;p&gt;&lt;a href=&#34;http://calebhearth.com/a/apps-i-use-2023&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blogging with Notion</title>
+      <link>https://calebh.earth/2023/11/05/blogging-with-notion.html</link>
+      <pubDate>Sun, 05 Nov 2023 17:00:00 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2023/11/05/blogging-with-notion.html</guid>
+      <description>&lt;p&gt;Notion has been helpful to me in organizing and offloading my thoughts on what articles I’d like to write and features I’d like to add for this blog. My articles usually start with a random thought and I’ll use that as the title for a card in my “Blog Posts” Notion board and possibly add some brief notes.&lt;/p&gt; &lt;figure class=&#34;image&#34;&gt; &lt;a href=&#34;https://calebh.earth/assets/notion-board-da78ed05381d82ea4be23f199da77add9ead8383fc9f761e18635f06ff57aa69.png&#34;&gt; &lt;img alt=&#34;Notion board headers &amp;#39;No Status&amp;#39;, &amp;#39;Notes&amp;#39;, &amp;#39;Draft&amp;#39;, &amp;#39;Review/Written&amp;#39;, and &amp;#39;Completed&amp;#39;. All columns except &amp;#39;Review/Written&amp;#39; include some cards that have a title, some with tags listed or an excerpt&#34; src=&#34;https://calebh.earth/assets/notion-board-da78ed05381d82ea4be23f199da77add9ead8383fc9f761e18635f06ff57aa69.png&#34; /&gt; &lt;/a&gt; &lt;figcaption&gt;Yeah, this is my actual, current board. It&#39;s usually just for me so I didn&#39;t make much effort to clean it up. If you see something you want to read about soon, let me know!&lt;/figcaption&gt; &lt;/figure&gt; &lt;h2 id=&#34;how-i-use-notion&#34;&gt;How I use Notion&lt;/h2&gt; &lt;p&gt;Notion provides a customizable set of attributes, called “properties”, that are specific to a “database”. These attributes can, in turn, be used to create Kanban-style boards. I mostly use a board whose columns are controlled my custom “Status” property and which is set to automatically sort each column by oldest to most recent update. You can also control what shows up on the cards. I have it set up to show Name, the list of Tags I’ve assigned, and the Excerpt. The latter two Notion hides...&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;http://calebhearth.com/a/blogging-with-notion&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I wish there were a better story around replying to blogs</title>
+      <link>https://calebh.earth/2023/11/04/i-wish-there.html</link>
+      <pubDate>Sat, 04 Nov 2023 17:00:00 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2023/11/04/i-wish-there.html</guid>
+      <description>&lt;link href=&#34;https://news.indieweb.org/en&#34; class=&#34;u-syndication&#34; /&gt; &lt;p&gt;Unlike social media microblogging, there’s not a great story for continuing the conversation of a blog post that’s part of the IndieWeb. Replying to a blog post most often takes the form of a reply to a POSSE&lt;sup id=&#34;fnref:posse&#34; role=&#34;doc-noteref&#34;&gt;&lt;a href=&#34;#fn:posse&#34; class=&#34;footnote&#34; rel=&#34;footnote&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; syndication like a Mastodon post or promotion link on Hacker News.&lt;/p&gt; &lt;p&gt;If I read an article by Chris Coyier on &lt;a href=&#34;https://chriscoyier.net/2023/10/31/answers-to-common-web-design-questions/&#34;&gt;answers to design questions&lt;/a&gt;, itself a response to &lt;a href=&#34;https://danmall.com/posts/answers-to-common-design-questions/&#34;&gt;Dan Mall’s answers to those same questions&lt;/a&gt; and want to reply, there’s little chance that either Chris or Dan would see my response and even less chance that I’ll know they saw it. I could definitely shoot them emails or mention them on Mastodon, but it would be really great if there were some better automated way to do this.&lt;/p&gt; &lt;h2 id=&#34;as-an-author&#34;&gt;As an author&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;A commenting system on each site, either self-hosted or using some embedded service like Disqus&lt;/li&gt; &lt;li&gt;Outsourcing comments somewhere else, such as to the Fediverse or the comments section of a link aggregator&lt;/li&gt; &lt;li&gt;Leave a note that if people want to reply to you they can &lt;a href=&#34;https://justin.searls.co/takes/2023-10-25-10h14m02s/&#34;&gt;reach you by email&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Set up a...&lt;/li&gt;&lt;/ol&gt;&lt;/link&gt;
+    &lt;p&gt;&lt;a href=&#34;http://calebhearth.com/a/blog-replies&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Annotating TTRPG Modules</title>
+      <link>https://calebh.earth/2023/11/03/annotating-ttrpg-modules.html</link>
+      <pubDate>Fri, 03 Nov 2023 17:00:00 -0700</pubDate>
+      
+      <guid>http://calebhearth.micro.blog/2023/11/03/annotating-ttrpg-modules.html</guid>
+      <description>&lt;p&gt;I want to share an approach to highlighting and tabbing an adventure that I’ve used recently to prep for RPG night with some success, and have missed when I didn’t have time to do it.&lt;/p&gt; &lt;p&gt;Prepping for running an adventure or module means reading and understanding a good amount of text. The standard “house style” that most adventure authors use at least in D&amp;amp;D and the OSR includes boxed text for what’s meant to be read to players and often includes &lt;em&gt;italics&lt;/em&gt; and &lt;strong&gt;bold&lt;/strong&gt; to call out spells and names, respectively. I find that while these are helpful during the first read, it’s useful for me to have highlighted text and marginalia that I use as study aids when reading the module in advance of running it. For longer texts, I also like to have tabs to navigate.&lt;/p&gt; &lt;p&gt;Something about my brain makes it hard for me to do things like this without a system for what colors I should use for what things, so here is the one I’ve devised. I hope it’s useful to you too!&lt;/p&gt; &lt;p&gt;Information that will only be useful...&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;http://calebhearth.com/a/annotating-ttrpg-modules&#34;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

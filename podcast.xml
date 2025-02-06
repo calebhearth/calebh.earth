@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<channel>
+		<atom:link href="https://calebh.earth/podcast.xml" rel="self" type="application/rss+xml" />
+		<title>Caleb Hearth</title>
+		<link>https://calebh.earth/</link>
+		<description></description>
+		<copyright>Copyright 2024 Caleb Hearth</copyright>
+		<itunes:image href="https://micro.blog/calebhearth/podcast.png" />
+		<itunes:category text="Society &amp; Culture">
+			<itunes:category text="Personal Journals"></itunes:category>
+		</itunes:category>
+		<itunes:author>Caleb Hearth</itunes:author>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:owner>
+			<itunes:name>Caleb Hearth</itunes:name>
+			<itunes:email></itunes:email>
+		</itunes:owner>
+		
+			<language>en</language>
+		
+		<lastBuildDate>Fri, 22 Nov 2024 19:34:15 -0700</lastBuildDate>
+	</channel>
+</rss>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Caleb Hearth" name="author">
+
+  <title>Caleb Hearth
+		- See the History of a Method with git log -L</title>
+
+  <link href="/assets/css/style.css?1738801255" rel="stylesheet">
+  <link href="/assets/css/highlight.css?1738801255" rel="stylesheet">
+  <link href="/assets/css/alpine.css?1738801255" rel="stylesheet">
+  <style>
+
+.site-title {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.35;
+	padding-left: 5px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+nav.main-nav a.cta {
+	background: #ffffff;
+	color: #f29c38;
+	padding: 6px 14px;
+	border: 2px solid #f29c38;
+	border-radius: 20px;
+	white-space: nowrap;
+	box-shadow: none;
+}
+
+nav.main-nav a.cta:hover {
+	background: #fffee4;
+	color: #f29c38;
+	margin-left: 12px;
+}
+
+</style>
+
+  <link rel="stylesheet" href="/custom.css?1738801255">
+
+	<link rel="shortcut icon" href="https://micro.blog/calebhearth/favicon.png" type="image/x-icon" />
+
+    <link rel="me" href="https://micro.blog/calebhearth" />
+	
+	
+		<link rel="me" href="https://github.com/calebhearth" />
+	
+	
+	<link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth" />
+	<link rel="token_endpoint" href="https://micro.blog/indieauth/token" />
+	<link rel="micropub" href="https://micro.blog/micropub" />
+	<link rel="microsub" href="https://micro.blog/microsub" />
+	<link rel="webmention" href="https://micro.blog/webmention" />
+	<link rel="subscribe" href="https://micro.blog/users/follow" />
+    
+    
+    	<link rel="me author" href="https://calebhearth.com">
+<link rel="me" href="https://pub.calebhearth.com/@caleb">
+<link rel="me" href="https://social.lol/@c">
+<link rel="me" href="https://github.com/calebhearth">
+
+
+    
+</head>
+
+<body>
+  <nav class="main-nav">
+
+	<div class="site-title">
+		<img src="https://micro.blog/calebhearth/avatar.jpg" width="25" height="25" class="site-image">		
+		<a href="/">Caleb Hearth</a>
+	</div>
+
+	<div class="site-menus">
+
+	
+
+	
+
+	
+		
+			<a href="/about/">About</a>
+		
+	
+		
+			<a href="/archive/">Archive</a>
+		
+	
+		
+			<a href="/replies/">Replies</a>
+		
+	
+
+	<a class="cta" href="https://micro.blog/calebhearth" rel="me">Also on Micro.blog</a>
+
+	</div>
+</nav>
+
+
+
+  <section id="wrapper" >
+	
+<article class="h-entry post">
+  <header>
+	
+    <h1 class="p-name">See the History of a Method with git log -L</h1>
+    
+    <h2 class="headline">
+      <time class="dt-published" datetime="2023-11-02 17:00:00 -0700">
+        <a class="u-url dates" href="https://calebh.earth/2023/11/02/see-the-history.html">Nov 2, 2023</a>
+      </time>
+    </h2>
+  </header>
+  <section class="e-content post-body">
+      <aside class="announcement"><p>If you enjoy this article on Git, also check these other <a href="/tags/git">Git tips</a>:</p><ul><li><a href="/stash-what-git-wouldnt-commit">Stash only what <code>git commit</code> wouldn't commit</a></li><li><a href="/rubocop-git-blame">Ignore refactoring commits in <code>git blame</code></a></li><li><a href="/sign-git-with-ssh">Use your SSH key to sign commits</a></li></ul></aside> <p>Git can “trace the evolution” of a specific method when passed <code>-L</code> using the <code>:&lt;funcname&gt;</code> variant. Let’s take a look at the history of this blog’s posts’ <code>published</code> scope, which is used in most places that articles are listed out. You can see that git is able to identify the boundaries of the method even as the length changes and it prints out the full method with diff from each commit in the log, which is filtered to changes to that method.</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git log -L :self.published:app/models/post.rb -n3 <span class="p">commit d1fbdf3b9a5bd37dd49d61c61ee0f51c75fdb806 Author: Caleb Hearth &lt;caleb@calebhearth.com&gt; Date: Thu Feb 2 16:36:34 2023 -0700 </span><span class="err"> </span> Decree, LFW, new homepage, RSS-only posts <span class="err"> </span><span class="gh">diff --git a/app/models/post.rb b/app/models/post.rb </span><span class="gd">--- a/app/models/post.rb </span><span class="gi">+++ b/app/models/post.rb </span><span class="p">@@ -15,6 +15,6 @@</span> def...</code></pre></div></div>
+    <p><a href="http://calebhearth.com/a/git-method-history">Read More</a></p>
+
+  </section>
+
+  
+  <script type="text/javascript" src="https://micro.blog/conversation.js?url=https%3a%2f%2fcalebh.earth%2f2023%2f11%2f02%2fsee-the-history.html"></script>
+  
+
+  <section id="post-meta" class="clearfix p-author h-card">
+    <a href="/" class="u-url">
+  	
+		<img class="u-photo avatar" src="https://micro.blog/calebhearth/avatar.jpg" width="96" height="96">
+		<div>
+		  <span class="p-name dark">Caleb Hearth</span>
+		  <span><a href="https://micro.blog/calebhearth">@calebhearth</a></span>
+		</div>
+	
+    </a>
+  </section>
+</article>
+
+  </section>
+  <footer id="footer">
+
+<section id="wrapper">
+  <ul>
+    <li><a href="/feed.xml">RSS</a></li>
+    <li><a href="/feed.json">JSON Feed</a></li>
+    <li><a href="/surprise-me/">Surprise me!</a></li>
+
+
+  </ul>
+  <form method="get" id="search" action="https://duckduckgo.com/">
+    <input type="hidden" name="sites" value="https://calebh.earth/"/>
+    <input type="hidden" name="k8" value="#444444"/>
+    <input type="hidden" name="k9" value="#ee4792"/>
+    <input type="hidden" name="kt" value="h"/>
+    <input class="field" type="text" name="q" maxlength="255" placeholder="To search, type and hit Enter…"/>
+    <input type="submit" value="Search" style="display: none;" />
+  </form>
+</section>
+
+</footer>
+
+  
+		
+</body>
+</html>

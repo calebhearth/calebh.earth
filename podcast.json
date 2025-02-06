@@ -1,0 +1,20 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Caleb Hearth",
+	"icon": "https://micro.blog/calebhearth/avatar.jpg",
+	"home_page_url": "https://calebh.earth/",
+	"feed_url": "https://calebh.earth/podcast.json",
+	"_podcast": {
+		"about": "https://jsonfeed.org/podcasting",
+		"image": "https://micro.blog/calebhearth/podcast.png",
+		"explicit": false,
+		"categories": [
+			{
+				"category": "Society \u0026 Culture",
+				"subcategory": "Personal Journals"
+			}
+		]
+	},
+	"items": [
+	]
+}

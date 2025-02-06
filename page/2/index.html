@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.91.2" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Caleb Hearth" name="author">
+
+  <title>Caleb Hearth</title>
+
+  <link href="/assets/css/style.css?1738801255" rel="stylesheet">
+  <link href="/assets/css/highlight.css?1738801255" rel="stylesheet">
+  <link href="/assets/css/alpine.css?1738801255" rel="stylesheet">
+  <style>
+
+.site-title {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.35;
+	padding-left: 5px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+nav.main-nav a.cta {
+	background: #ffffff;
+	color: #f29c38;
+	padding: 6px 14px;
+	border: 2px solid #f29c38;
+	border-radius: 20px;
+	white-space: nowrap;
+	box-shadow: none;
+}
+
+nav.main-nav a.cta:hover {
+	background: #fffee4;
+	color: #f29c38;
+	margin-left: 12px;
+}
+
+</style>
+
+  <link rel="stylesheet" href="/custom.css?1738801255">
+
+	<link rel="shortcut icon" href="https://micro.blog/calebhearth/favicon.png" type="image/x-icon" />
+
+    <link href="https://calebh.earth/feed.xml" rel="alternate" type="application/rss+xml" title="Caleb Hearth" />
+      <link href="https://calebh.earth/podcast.xml" rel="alternate" type="application/rss+xml" title="Podcast" />
+      <link rel="alternate" type="application/json" title="Caleb Hearth" href="https://calebh.earth/feed.json" />
+      <link rel="EditURI" type="application/rsd+xml" href="https://calebh.earth/rsd.xml" />
+    <link rel="me" href="https://micro.blog/calebhearth" />
+	
+	
+		<link rel="me" href="https://github.com/calebhearth" />
+	
+	
+	<link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth" />
+	<link rel="token_endpoint" href="https://micro.blog/indieauth/token" />
+	<link rel="micropub" href="https://micro.blog/micropub" />
+	<link rel="microsub" href="https://micro.blog/microsub" />
+	<link rel="webmention" href="https://micro.blog/webmention" />
+	<link rel="subscribe" href="https://micro.blog/users/follow" />
+    
+    
+    	<link rel="me author" href="https://calebhearth.com">
+<link rel="me" href="https://pub.calebhearth.com/@caleb">
+<link rel="me" href="https://social.lol/@c">
+<link rel="me" href="https://github.com/calebhearth">
+
+
+    
+</head>
+
+<body>
+  <nav class="main-nav">
+
+	<div class="site-title">
+		<img src="https://micro.blog/calebhearth/avatar.jpg" width="25" height="25" class="site-image">		
+		<a href="/">Caleb Hearth</a>
+	</div>
+
+	<div class="site-menus">
+
+	
+
+	
+		
+			<a href="/about/">About</a>
+		
+	
+		
+			<a href="/archive/">Archive</a>
+		
+	
+		
+			<a href="/replies/">Replies</a>
+		
+	
+
+	<a class="cta" href="https://micro.blog/calebhearth" rel="me">Also on Micro.blog</a>
+
+	</div>
+</nav>
+
+
+
+
+
+  <section id="wrapper" >
+	
+
+<ul id="post-list" class="h-feed">
+
+
+	
+	
+	
+		<li>
+<article class="h-entry">
+  
+  <section class="post-body">
+  <header>
+	<h2><a href="https://calebh.earth/2023/11/02/see-the-history.html" class="p-name">See the History of a Method with git log -L</a></h2>
+  </header>
+  <section class="post-body e-content">
+	<aside class="announcement"><p>If you enjoy this article on Git, also check these other <a href="/tags/git">Git tips</a>:</p><ul><li><a href="/stash-what-git-wouldnt-commit">Stash only what <code>git commit</code> wouldn't commit</a></li><li><a href="/rubocop-git-blame">Ignore refactoring commits in <code>git blame</code></a></li><li><a href="/sign-git-with-ssh">Use your SSH key to sign commits</a></li></ul></aside> <p>Git can “trace the evolution” of a specific method when passed <code>-L</code> using the <code>:&lt;funcname&gt;</code> variant. Let’s take a look at the history of this blog’s posts’ <code>published</code> scope, which is used in most places that articles are listed out. You can see that git is able to identify the boundaries of the method even as the length changes and it prints out the full method with diff from each commit in the log, which is filtered to changes to that method.</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git log -L :self.published:app/models/post.rb -n3 <span class="p">commit d1fbdf3b9a5bd37dd49d61c61ee0f51c75fdb806 Author: Caleb Hearth &lt;caleb@calebhearth.com&gt; Date: Thu Feb 2 16:36:34 2023 -0700 </span><span class="err"> </span> Decree, LFW, new homepage, RSS-only posts <span class="err"> </span><span class="gh">diff --git a/app/models/post.rb b/app/models/post.rb </span><span class="gd">--- a/app/models/post.rb </span><span class="gi">+++ b/app/models/post.rb </span><span class="p">@@ -15,6 +15,6 @@</span> def...</code></pre></div></div>
+    <p><a href="http://calebhearth.com/a/git-method-history">Read More</a></p>
+
+  </section>
+  </section>
+  
+  <a href="https://calebh.earth/2023/11/02/see-the-history.html" class="u-url">
+	<aside class="dates">
+	  <time datetime="2023-11-02 17:00:00 -0700" class="dt-published">→ 5:00 PM, Nov 2</time>
+	</aside>
+  </a>
+</article>
+</li>
+<span class="separator"><span class="divider"></span></span>
+
+	
+		<li>
+<article class="h-entry">
+  
+  <section class="post-body">
+  <header>
+	<h2><a href="https://calebh.earth/2023/11/01/undo-in-assetsclobber.html" class="p-name">Undo in assets:clobber What You Do in assets:precompile</a></h2>
+  </header>
+  <section class="post-body e-content">
+	<p>As a best practice, when you enhance your Rails app’s <code>assets:precompile</code> task to build static assets that can be served faster than if they needed to be compiled at runtime, you should also enhance <code>assets:clobber</code> to remove the artifacts you create.</p> <p>Rails built in precompile task will build assets by running CSS and JavaScript through preprocessors, combine them into a single file (or more, depending on setup), and give them file names with SHA sums.</p> <p>The <code>assets:clobber</code> Rake task is the less well-known sibling of <code>assets:precompile</code>. It’s really useful when you want to be able to verify that your build process works correctly that you can also tear it down completely. This avoids running with precompiled assets in your development environment, for example. In the default case it deletes the files generated by <code>assets:precompile</code>.</p> <p>Both of these tasks (and indeed any other Rake task) have additional tasks run either before or after their current behavior. To run before, you’d add</p> <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">task</span> <span class="s2">...</span></code></pre></div></div>
+    <p><a href="http://calebhearth.com/a/assets-precompile-clobber">Read More</a></p>
+
+  </section>
+  </section>
+  
+  <a href="https://calebh.earth/2023/11/01/undo-in-assetsclobber.html" class="u-url">
+	<aside class="dates">
+	  <time datetime="2023-11-01 17:00:00 -0700" class="dt-published">→ 5:00 PM, Nov 1</time>
+	</aside>
+  </a>
+</article>
+</li>
+<span class="separator"><span class="divider"></span></span>
+
+	
+		<li>
+<article class="h-entry">
+  
+  <section class="post-body">
+  <header>
+	<h2><a href="https://calebh.earth/2023/10/31/quotjewishishquot-brisket-recipe.html" class="p-name">&amp;quot;Jewish-ish&amp;quot; Brisket Recipe</a></h2>
+  </header>
+  <section class="post-body e-content">
+	<p>There’s no better way to prepare a brisket than to smoke it low and slow, like they do in the South. But a true Austin-style smoked brisket doesn’t scratch the itch when Hanukkah, Passover or Rosh Hashanah come around. This recipe combines the seasonings and accompaniments of a braised Jewish brisket and the cooking style of a smoked brisket for a great “Jewish-ish” dish that tastes amazing and melts in your mouth.</p> <p>This recipe is based heavily <span class="h-cite"><span class="p-author h-card">Aaron Franklin</span>’s <em class="p-name" style="white-space: nowrap;">Franklin Barbecue</em></span> for the smoking instructions and <span class="h-cite"><em class="p-name">Zahav</em> by <span class="p-author h-card">Michael Solomonov</span> and <span class="p-author h-card">Steven Cook</span></span> for the spice mix.</p> <p>I retain full claim to the snark.</p> <div class="h-recipe"> <h2 id="ingredients">Ingredients</h2> <h3 id="brisket">Brisket</h3> <ul> <li class="p-ingredient">3 Tbsp whole coffee beans</li> <li class="p-ingredient">2 Tbsp whole green cardamom pods</li> <li class="p-ingredient">2 Tbsp whole black cardamom pods</li> <li><span class="p-ingredient">3 Tbsp kosher salt</span> (seriously get some Diamond Crystal Kosher Salt please, it’s the standard for most recipes)</li> <li><span class="p-ingredient">12 to 14-pound brisket, packer cut</span> (I’ve done this with as little as 5 lbs but with the effort you’re going to put into it you may as well go big and make...</li></ul></div>
+    <p><a href="http://calebhearth.com/a/brisket">Read More</a></p>
+
+  </section>
+  </section>
+  
+  <a href="https://calebh.earth/2023/10/31/quotjewishishquot-brisket-recipe.html" class="u-url">
+	<aside class="dates">
+	  <time datetime="2023-10-31 17:00:00 -0700" class="dt-published">→ 5:00 PM, Oct 31</time>
+	</aside>
+  </a>
+</article>
+</li>
+<span class="separator"><span class="divider"></span></span>
+
+	
+		<li>
+<article class="h-entry">
+  
+  <section class="post-body">
+  <header>
+	<h2><a href="https://calebh.earth/2023/08/27/linked-bartenders-are.html" class="p-name">Linked: Bartenders Are Rethinking Cocktail Garnishes and Helping Fight Food Waste</a></h2>
+  </header>
+  <section class="post-body e-content">
+	<blockquote><span class="s1" style="font-family: UICTFontTextStyleBody;">While I understand the visual appeal of a cocktail garnish, from a simple slice of citrus to a more ornamental combination of fruits, leaves, and spices, it’s worth asking: Is the resulting waste&nbsp;</span><span class="s2" style="font-family: UICTFontTextStyleItalicBody; font-style: italic;">really</span><span class="s1" style="font-family: UICTFontTextStyleBody;">worth it?</span></blockquote>
+<p><span class="s1" style="font-family: UICTFontTextStyleBody;">While I can't claim that I've spent a huge amount of time thinking about the waste (in transportation, water, biomass going to landfill or compost), I have cut back on garnishes for cocktails I make at home, especially when they're just for me. A spritz of absinthe, bitters, or citrus oil over a drink gives a similar effect on scent and flavor. Sure, you lose the visual impact but it's probably worthwhile.</span></p>
+<p>Are you in camp "keep the garnish", "leave it out", or "pick an alternative like dehydrated lemon peel in salt rim"?</p>
+    <p><a aria-label="Permalink to bookmark" rel="bookmark" title="Permalink to bookmark" href="/linked/d0f11795-dbee-4e65-a6de-d1722bb889c8">⬣</a></p>
+
+  </section>
+  </section>
+  
+  <a href="https://calebh.earth/2023/08/27/linked-bartenders-are.html" class="u-url">
+	<aside class="dates">
+	  <time datetime="2023-08-27 12:16:54 -0700" class="dt-published">→ 12:16 PM, Aug 27</time>
+	</aside>
+  </a>
+</article>
+</li>
+<span class="separator"><span class="divider"></span></span>
+
+	
+		<li>
+<article class="h-entry">
+  
+  <section class="post-body">
+  <header>
+	<h2><a href="https://calebh.earth/2023/08/25/linked-block-the.html" class="p-name">Linked: Block the Bots that Feed “AI” Models by Scraping Your Website</a></h2>
+  </header>
+  <section class="post-body e-content">
+	<p>An excellent overview of steps we can take to prevent scraping of content by unscrupulous bots, including options for robots.txt and blocking specific User-Agents at the firewall or CDN level.</p>
+<p>As Neil writes, it's a real problem that this is an opt-out situation, meaning that we need to explicity deny access to our copywritten works, rather than opt-in where authors, artists, and creators provide their work for training purposes.</p>
+<p>Like many web users, I've played with using tools like ChatGPT for writing blog posts, Dall-E and Midjourney for hallucinating artwork, Copilot for helping write code, and probably some other things I can't recall right now. I also harbor significant concerns about the ethics of how these tools were trained and the consequences of using them.</p>
+<p>I suppose that we can at least give credit to these companies for being "well-behaved" if they follow these directives or identify themselves by User-Agent.</p>
+    <p><a aria-label="Permalink to bookmark" rel="bookmark" title="Permalink to bookmark" href="/linked/b8bea554-3375-4aa3-945c-139e4c1070cc">⬣</a></p>
+
+  </section>
+  </section>
+  
+  <a href="https://calebh.earth/2023/08/25/linked-block-the.html" class="u-url">
+	<aside class="dates">
+	  <time datetime="2023-08-25 13:52:43 -0700" class="dt-published">→ 1:52 PM, Aug 25</time>
+	</aside>
+  </a>
+</article>
+</li>
+<span class="separator"><span class="divider"></span></span>
+
+	
+		<li>
+<article class="h-entry">
+  
+  <section class="post-body">
+  <header>
+	<h2><a href="https://calebh.earth/2023/08/25/linked-tailwind-and.html" class="p-name">Linked: Tailwind and the Femininity of CSS</a></h2>
+  </header>
+  <section class="post-body e-content">
+	<p><span style="font-size: x-large;">One of the best articulated arguments against using Tailwind and other CSS-avoidances (for using CSS?). &nbsp;</span></p>
+<p><span style="font-size: x-large;">Bemoaning "fixes" by programmers who refuse to take the time to learn CSS and instead, Elaina writes:</span></p>
+<blockquote><span style="font-size: x-large;">Those “fixes” manifested as CSS-in-JS, Material, Bootstrap, and Tailwind, to name a few. If you peruse web dev Twitter for any length of time, you’ll find the communities that evangelize these frameworks are mainly self-described programmers or developers. Oftentimes, they are used as a panacea to all their CSS woes; simply bolting it onto a project is their one-way ticket to not having to see CSS, let alone writing it.</span></blockquote>
+<p><span style="font-size: x-large;">Elaina has the intriguing take that this is partially caused by the male-dominated community of developers considering CSS to be feminine and thereby devaluing it as a tool and proficiency with it as secondary.</span></p>
+    <p><a aria-label="Permalink to bookmark" rel="bookmark" title="Permalink to bookmark" href="/linked/e32ff04b-00a5-43a8-9d26-90b48b0c7a44">⬣</a></p>
+
+  </section>
+  </section>
+  
+  <a href="https://calebh.earth/2023/08/25/linked-tailwind-and.html" class="u-url">
+	<aside class="dates">
+	  <time datetime="2023-08-25 13:35:16 -0700" class="dt-published">→ 1:35 PM, Aug 25</time>
+	</aside>
+  </a>
+</article>
+</li>
+<span class="separator"><span class="divider"></span></span>
+
+	
+		<li>
+<article class="h-entry">
+  
+  <section class="post-body">
+  <header>
+	<h2><a href="https://calebh.earth/2023/08/25/linked-pregnancy-apps.html" class="p-name">Linked: Pregnancy Apps Can Do Better for Parents After Loss</a></h2>
+  </header>
+  <section class="post-body e-content">
+	<div class="trix-content">
+<p>Hannah argues that pregancy apps can better support several categories of user:</p>
+<blockquote>
+<p>People who have spent years trying to get and stay pregnant. People who have spent almost as much time recovering from a miscarriage as they have actually being pregnant. People who have ended a very desired pregnancy because of medical conditions for the parent, the fetus, or the baby. People who have given birth to a gorgeous child who didn’t make it.</p>
+</blockquote>
+<p>I've had several friends who have been outside of the &nbsp;"normal" user category and I fully endorse that apps should support folks who fall outside of this. I can only imagine that it's extremely hard to be in any number of situations where the constant assumption of a healthy child on the part of app developers is just a reminder of loss, unhappiness, or despair.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+    <p><a aria-label="Permalink to bookmark" rel="bookmark" title="Permalink to bookmark" href="/linked/3297b8fa-59e8-4556-a0ba-a13b6b3802e2">⬣</a></p>
+
+  </section>
+  </section>
+  
+  <a href="https://calebh.earth/2023/08/25/linked-pregnancy-apps.html" class="u-url">
+	<aside class="dates">
+	  <time datetime="2023-08-25 13:24:04 -0700" class="dt-published">→ 1:24 PM, Aug 25</time>
+	</aside>
+  </a>
+</article>
+</li>
+<span class="separator"><span class="divider"></span></span>
+
+	
+		<li>
+<article class="h-entry">
+  
+	<div class="e-content"><p>It&rsquo;d be really neat if someone made &ldquo;smart&rdquo; AAs/AAAs that could be used for battery powered devices to turn them on/off. It would be a lot of fun to turn on my Rey lightsaber via Homekit. #SmartHome #StarWars</p>
+</div>
+  
+  <a href="https://calebh.earth/2023/06/23/itd-be-really.html" class="u-url">
+	<aside class="dates">
+	  <time datetime="2023-06-23 09:02:40 -0700" class="dt-published">→ 9:02 AM, Jun 23</time>
+	</aside>
+  </a>
+</article>
+</li>
+<span class="separator"><span class="divider"></span></span>
+
+	
+		<li>
+<article class="h-entry">
+  
+	<div class="e-content"><p>📝 <a href="https://calebhearth.com/m/mastodon-spam">Why is Spam on Mastodon Such a Heated Topic?</a> in which I write about why mastodon.social&rsquo;s recent waves of spam are a problem, different from email spam, and encourage folks to migrate to other servers.</p>
+</div>
+  
+  <a href="https://calebh.earth/2023/05/16/why-is-spam.html" class="u-url">
+	<aside class="dates">
+	  <time datetime="2023-05-16 09:38:57 -0700" class="dt-published">→ 9:38 AM, May 16</time>
+	</aside>
+  </a>
+</article>
+</li>
+<span class="separator"><span class="divider"></span></span>
+
+	
+
+
+</ul>
+
+
+	
+
+
+
+  </section>
+  <footer id="footer">
+
+<section id="wrapper">
+  <ul>
+    <li><a href="/feed.xml">RSS</a></li>
+    <li><a href="/feed.json">JSON Feed</a></li>
+    <li><a href="/surprise-me/">Surprise me!</a></li>
+
+
+  </ul>
+  <form method="get" id="search" action="https://duckduckgo.com/">
+    <input type="hidden" name="sites" value="https://calebh.earth/"/>
+    <input type="hidden" name="k8" value="#444444"/>
+    <input type="hidden" name="k9" value="#ee4792"/>
+    <input type="hidden" name="kt" value="h"/>
+    <input class="field" type="text" name="q" maxlength="255" placeholder="To search, type and hit Enter…"/>
+    <input type="submit" value="Search" style="display: none;" />
+  </form>
+</section>
+
+</footer>
+
+  
+		
+</body>
+</html>
